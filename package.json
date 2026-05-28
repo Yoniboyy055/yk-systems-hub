@@ -1,0 +1,14 @@
+{
+  "name": "yksystems-free-resource-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static launch kit for the YK SYSTEMS Free Resource Library.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:book": "node tools/build-print-assets.mjs",
+    "verify": "node --check script.js && node --check review.js && node --check tools/build-print-assets.mjs && npm run build:book",
+    "serve": "npx --yes serve ."
+  }
+}

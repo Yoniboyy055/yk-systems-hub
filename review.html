@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Request a YK SYSTEMS Review</title>
+    <meta
+      name="description"
+      content="Request a free YK SYSTEMS system review for automation, client intake, CRM, follow-up, websites, and AI workflow setup."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="YK SYSTEMS home"><span>YK</span> SYSTEMS</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html#vault">Vault</a>
+        <a href="index.html#workflows">Workflows</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <a class="header-cta" href="https://yoniboy.gumroad.com/l/automation-builder-blueprint-2026" target="_blank" rel="noreferrer">
+        Free Book
+      </a>
+    </header>
+
+    <main>
+      <section class="review-hero">
+        <div>
+          <h1>Request a Free System Review</h1>
+          <p>
+            Tell YK SYSTEMS where your leads, tasks, tools, or follow-up process gets messy. This
+            form creates a clean review request you can export, email, and turn into a paid setup
+            conversation.
+          </p>
+        </div>
+        <aside>
+          <h2>Good fits</h2>
+          <ul class="check-list">
+            <li>Client intake and lead follow-up</li>
+            <li>Google Sheets CRM setup</li>
+            <li>Website forms and automation</li>
+            <li>AI prompts, SOPs, and workflow maps</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="review-form-shell">
+        <form id="reviewForm" class="review-form">
+          <label>
+            <span>Name</span>
+            <input name="name" autocomplete="name" required placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Business name</span>
+            <input name="businessName" placeholder="Business or project name" />
+          </label>
+          <label>
+            <span>Business type</span>
+            <select name="businessType" required>
+              <option value="">Select one</option>
+              <option>Small business</option>
+              <option>Creator or coach</option>
+              <option>Contractor or field team</option>
+              <option>Agency or freelancer</option>
+              <option>E-commerce or digital product</option>
+              <option>Startup or founder</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>
+            <span>Website or social link</span>
+            <input name="webLink" type="url" placeholder="https://..." />
+          </label>
+          <label>
+            <span>What do you want to automate first?</span>
+            <textarea name="automationGoal" rows="4" required placeholder="Example: lead follow-up, quote requests, client intake, job reports"></textarea>
+          </label>
+          <label>
+            <span>What tools do you currently use?</span>
+            <textarea name="currentTools" rows="3" placeholder="Example: Gmail, Google Sheets, Notion, Stripe, Zapier, Make, n8n"></textarea>
+          </label>
+          <label>
+            <span>Where do leads or tasks get lost?</span>
+            <textarea name="problemArea" rows="4" required placeholder="Describe the messy part of the process"></textarea>
+          </label>
+          <div class="split-fields">
+            <label>
+              <span>Timeline</span>
+              <select name="timeline" required>
+                <option value="">Select one</option>
+                <option>This week</option>
+                <option>Within 2 weeks</option>
+                <option>This month</option>
+                <option>Just researching</option>
+              </select>
+            </label>
+            <label>
+              <span>Budget range</span>
+              <select name="budget" required>
+                <option value="">Select one</option>
+                <option>Free review first</option>
+                <option>$150-$500</option>
+                <option>$500-$1,500</option>
+                <option>$1,500+</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+          </div>
+          <button class="button primary full" type="submit">Prepare My Review Request <span aria-hidden="true">-&gt;</span></button>
+          <p class="form-note" id="reviewMessage">Submissions are stored in this browser first. Use export or email after submitting.</p>
+        </form>
+
+        <aside class="review-next">
+          <h2>After Submit</h2>
+          <p>
+            The page will save the request locally, prepare an email to YK SYSTEMS, and let you
+            export all review requests as a CSV for tracking.
+          </p>
+          <button class="button outline full" type="button" id="emailReview">Open Email Draft</button>
+          <button class="text-button" type="button" id="exportReviews">Export Review CSV</button>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="index.html"><span>YK</span> SYSTEMS</a>
+      <p>(c) 2026 YK SYSTEMS. Build the system once. Use it every day.</p>
+      <a href="index.html">Back to library</a>
+    </footer>
+
+    <script src="review.js"></script>
+  </body>
+</html>
+
