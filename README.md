@@ -21,17 +21,26 @@ This folder contains the first launchable version of the YK SYSTEMS free lead-ma
 3. Use `npm run build:book` only if the backup starter manuscript changes.
 4. The Gumroad product is live at:
    - `https://yoniboy.gumroad.com/l/automation-builder-blueprint-2026`
-5. Open `index.html` locally and test the free-download flow.
-6. Open `review.html` locally and test the system-review form.
-7. Upload the page to your site or deploy it as a static project.
+5. The public landing page is live at:
+   - `https://hub.yksystems.ca`
+   - Vercel fallback: `https://yk-systems-hub.vercel.app`
+6. The public system-review page is live at:
+   - `https://hub.yksystems.ca/review`
+   - Vercel fallback: `https://yk-systems-hub.vercel.app/review`
+7. DNS requirement for the custom domain:
+   - Add `A hub.yksystems.ca 76.76.21.21` at Porkbun.
+   - Current nameservers detected by Vercel: `curitiba.ns.porkbun.com`, `fortaleza.ns.porkbun.com`, `maceio.ns.porkbun.com`, `salvador.ns.porkbun.com`.
 8. Post the tracked landing-page link on Reddit, LinkedIn, and groups.
 
-## Vercel Note
+## Deployment Note
 
-The Vercel CLI is not installed on this machine. Install it with:
+The Vercel project is linked as `yk-systems-hub`.
+
+Useful commands:
 
 ```powershell
-npm i -g vercel
+npm run verify
+vercel deploy --prod
 ```
 
-That unlocks `vercel env pull`, `vercel deploy`, and `vercel logs` for agentic deployment work later.
+Custom-domain DNS must be completed at Porkbun before `hub.yksystems.ca` resolves publicly.

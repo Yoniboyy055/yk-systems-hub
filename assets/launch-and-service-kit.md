@@ -25,7 +25,7 @@ It is made for people who are asking: what should I automate first?
 
 Free download:
 
-{{tracked_landing_page_link}}
+https://hub.yksystems.ca?utm_source=reddit&utm_medium=social&utm_campaign=automation_builder_blueprint
 
 No pitch required. Use it, adapt it, and build one useful system first.
 
@@ -48,7 +48,17 @@ The goal is simple: help people move from scattered tools, lost leads, and repea
 
 Free access:
 
-{{tracked_landing_page_link}}
+https://hub.yksystems.ca?utm_source=linkedin&utm_medium=social&utm_campaign=automation_builder_blueprint
+
+## Tracking Links
+
+Use these links by channel:
+
+- Reddit: `https://hub.yksystems.ca?utm_source=reddit&utm_medium=social&utm_campaign=automation_builder_blueprint`
+- LinkedIn: `https://hub.yksystems.ca?utm_source=linkedin&utm_medium=social&utm_campaign=automation_builder_blueprint`
+- Facebook groups: `https://hub.yksystems.ca?utm_source=facebook_group&utm_medium=social&utm_campaign=automation_builder_blueprint`
+- Direct outreach: `https://hub.yksystems.ca?utm_source=direct_outreach&utm_medium=message&utm_campaign=automation_builder_blueprint`
+- Gumroad direct: `https://yoniboy.gumroad.com/l/automation-builder-blueprint-2026`
 
 ## Starter Service Offers
 
@@ -189,4 +199,3 @@ After YK SYSTEMS:
 Result:
 
 Thank you.
-
