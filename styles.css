@@ -206,6 +206,25 @@ a {
   opacity: 0.7;
 }
 
+.book-cover.image-cover {
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+  background: #101817;
+}
+
+.book-cover.image-cover::after {
+  content: none;
+}
+
+.book-cover.image-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
 .book-cover span,
 .book-cover small {
   color: #b4fff5;
