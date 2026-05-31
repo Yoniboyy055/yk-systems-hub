@@ -164,6 +164,10 @@ a {
   width: 100%;
 }
 
+.access-button {
+  margin-top: 28px;
+}
+
 .privacy-line,
 .form-note {
   color: var(--muted);
@@ -312,9 +316,49 @@ th {
   border-bottom: 1px solid var(--line);
 }
 
+.answer-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  padding: 0 5vw;
+  border-bottom: 1px solid var(--line);
+  background: var(--line);
+}
+
+.answer-strip div {
+  padding: 42px;
+  background: var(--wash);
+}
+
+.answer-strip h2 {
+  margin: 0 0 12px;
+  color: var(--deep);
+  font-family: var(--font-display);
+  font-size: 25px;
+}
+
+.answer-strip p,
+.section-title p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .section-title {
   margin-bottom: 38px;
   text-align: center;
+}
+
+.section-title p:not(.section-kicker) {
+  max-width: 680px;
+  margin: 14px auto 0;
+}
+
+.section-kicker {
+  margin: 0 0 10px;
+  color: var(--teal) !important;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .section-title h2,
@@ -487,12 +531,35 @@ textarea {
 }
 
 .library-grid a {
-  display: grid;
-  place-items: center;
-  min-height: 130px;
+  display: flex;
+  min-height: 170px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
   color: var(--deep);
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.library-grid a:hover,
+.library-grid a:focus-visible {
+  background: var(--deep);
+  color: #fff;
+}
+
+.library-grid strong {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 22px;
+}
+
+.library-grid span {
+  max-width: 300px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.library-grid a:hover span,
+.library-grid a:focus-visible span {
+  color: #d9f7f3;
 }
 
 .faq {
@@ -581,6 +648,14 @@ textarea {
   color: var(--muted);
 }
 
+.review-steps {
+  display: grid;
+  gap: 14px;
+  margin: 0 0 28px;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
 details {
   border-top: 1px solid var(--line);
   padding: 24px 0;
@@ -640,7 +715,8 @@ summary {
 
   .value-grid,
   .audience-grid,
-  .library-grid {
+  .library-grid,
+  .answer-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -756,7 +832,16 @@ summary {
 
   .value-grid,
   .audience-grid,
-  .library-grid {
+  .library-grid,
+  .answer-strip {
     grid-template-columns: 1fr;
+  }
+
+  .answer-strip {
+    padding: 0;
+  }
+
+  .answer-strip div {
+    padding: 32px 20px;
   }
 }

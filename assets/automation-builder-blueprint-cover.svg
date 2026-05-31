@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The Automation Builder Blueprint</title>
+  <desc id="desc">Free small business automation guide from YK SYSTEMS</desc>
+  <rect width="1200" height="630" fill="#071311"/>
+  <rect x="54" y="54" width="1092" height="522" fill="none" stroke="#12c5b4" stroke-width="3"/>
+  <rect x="86" y="86" width="18" height="458" fill="#12c5b4"/>
+  <text x="144" y="170" fill="#12c5b4" font-family="Arial, sans-serif" font-size="38" font-weight="700">YK SYSTEMS</text>
+  <text x="144" y="272" fill="#ffffff" font-family="Arial, sans-serif" font-size="74" font-weight="700">THE AUTOMATION</text>
+  <text x="144" y="357" fill="#ffffff" font-family="Arial, sans-serif" font-size="74" font-weight="700">BUILDER BLUEPRINT</text>
+  <text x="148" y="430" fill="#b4fff5" font-family="Arial, sans-serif" font-size="31">Free 130-page small business automation guide</text>
+  <text x="148" y="500" fill="#ffffff" font-family="Arial, sans-serif" font-size="24">Practical AI prompts, workflow examples, and first-step checklists</text>
+</svg>

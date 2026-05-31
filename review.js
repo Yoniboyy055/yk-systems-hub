@@ -1,7 +1,5 @@
 const reviewForm = document.querySelector("#reviewForm");
 const reviewMessage = document.querySelector("#reviewMessage");
-const emailReview = document.querySelector("#emailReview");
-const exportReviews = document.querySelector("#exportReviews");
 const reviewStorageKey = "yksystems-review-requests";
 const reviewEmail = "yoniboy055@gmail.com";
 
@@ -31,53 +29,6 @@ const reviewToEmail = (review) => {
     `Source: ${review.source}`,
     `Date: ${review.date}`,
   ].join("\n");
-};
-
-const downloadFile = (fileName, content, type) => {
-  const blob = new Blob([content], { type });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = fileName;
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
-  URL.revokeObjectURL(url);
-};
-
-const toCsv = (rows) => {
-  const headers = [
-    "Name",
-    "Email",
-    "Business name",
-    "Business type",
-    "Website/social",
-    "Automation goal",
-    "Current tools",
-    "Problem area",
-    "Timeline",
-    "Budget",
-    "Source",
-    "Date",
-  ];
-  const escape = (value) => `"${String(value || "").replaceAll('"', '""')}"`;
-  const body = rows.map((row) =>
-    [
-      row.name,
-      row.email,
-      row.businessName,
-      row.businessType,
-      row.webLink,
-      row.automationGoal,
-      row.currentTools,
-      row.problemArea,
-      row.timeline,
-      row.budget,
-      row.source,
-      row.date,
-    ].map(escape).join(",")
-  );
-  return [headers.join(","), ...body].join("\n");
 };
 
 const openEmailDraft = () => {
@@ -115,11 +66,5 @@ reviewForm?.addEventListener("submit", (event) => {
   reviewMessage.textContent = "Review request saved. Opening an email draft now.";
   reviewForm.reset();
   window.setTimeout(openEmailDraft, 400);
-});
-
-emailReview?.addEventListener("click", openEmailDraft);
-
-exportReviews?.addEventListener("click", () => {
-  downloadFile("yksystems-review-requests.csv", toCsv(getReviews()), "text/csv;charset=utf-8");
 });
 
