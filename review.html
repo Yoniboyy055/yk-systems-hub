@@ -10,6 +10,7 @@
     />
     <link rel="canonical" href="https://hub.yksystems.ca/review" />
     <meta name="robots" content="index, follow" />
+    <link rel="icon" href="assets/automation-builder-blueprint-cover.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,70 +55,82 @@
 
       <section class="review-form-shell">
         <form id="reviewForm" class="review-form">
-          <label>
-            <span>Name</span>
-            <input name="name" autocomplete="name" required placeholder="Your name" />
-          </label>
-          <label>
-            <span>Email</span>
-            <input name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
-          </label>
-          <label>
-            <span>Business name</span>
-            <input name="businessName" placeholder="Business or project name" />
-          </label>
-          <label>
-            <span>Business type</span>
-            <select name="businessType" required>
-              <option value="">Select one</option>
-              <option>Small business</option>
-              <option>Creator or coach</option>
-              <option>Contractor or field team</option>
-              <option>Agency or freelancer</option>
-              <option>E-commerce or digital product</option>
-              <option>Startup or founder</option>
-              <option>Not sure yet</option>
-            </select>
-          </label>
-          <label>
-            <span>Website or social link</span>
-            <input name="webLink" type="url" placeholder="https://..." />
-          </label>
-          <label>
-            <span>What do you want to automate first?</span>
-            <textarea name="automationGoal" rows="4" required placeholder="Example: lead follow-up, quote requests, client intake, job reports"></textarea>
-          </label>
-          <label>
-            <span>What tools do you currently use?</span>
-            <textarea name="currentTools" rows="3" placeholder="Example: Gmail, Google Sheets, Notion, Stripe, Zapier, Make, n8n"></textarea>
-          </label>
-          <label>
-            <span>Where do leads or tasks get lost?</span>
-            <textarea name="problemArea" rows="4" required placeholder="Describe the messy part of the process"></textarea>
-          </label>
-          <div class="split-fields">
+          <fieldset>
+            <legend>About You</legend>
+            <div class="split-fields">
+              <label>
+                <span>Name</span>
+                <input name="name" autocomplete="name" required placeholder="Your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+              </label>
+            </div>
             <label>
-              <span>Timeline</span>
-              <select name="timeline" required>
-                <option value="">Select one</option>
-                <option>This week</option>
-                <option>Within 2 weeks</option>
-                <option>This month</option>
-                <option>Just researching</option>
-              </select>
+              <span>Business name</span>
+              <input name="businessName" placeholder="Your business or project name" />
             </label>
             <label>
-              <span>Budget range</span>
-              <select name="budget" required>
+              <span>Business type</span>
+              <select name="businessType" required>
                 <option value="">Select one</option>
-                <option>Free review first</option>
-                <option>$150-$500</option>
-                <option>$500-$1,500</option>
-                <option>$1,500+</option>
+                <option>Small business</option>
+                <option>Creator or coach</option>
+                <option>Contractor or field team</option>
+                <option>Agency or freelancer</option>
+                <option>E-commerce or digital product</option>
+                <option>Startup or founder</option>
                 <option>Not sure yet</option>
               </select>
             </label>
-          </div>
+            <label>
+              <span>Website or social link</span>
+              <input name="webLink" type="url" placeholder="https://..." />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Your Current Process</legend>
+            <label>
+              <span>What do you want to automate first?</span>
+              <textarea name="automationGoal" rows="4" required placeholder="Example: lead follow-up, quote requests, client intake, or job reports"></textarea>
+            </label>
+            <label>
+              <span>What tools do you currently use?</span>
+              <textarea name="currentTools" rows="3" placeholder="Example: Gmail, Google Sheets, Notion, Stripe, Zapier, Make, or n8n"></textarea>
+            </label>
+            <label>
+              <span>Where do leads or tasks get lost?</span>
+              <textarea name="problemArea" rows="4" required placeholder="Describe the repeated work or messy part of the process"></textarea>
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Timing and Budget</legend>
+            <div class="split-fields">
+              <label>
+                <span>Timeline</span>
+                <select name="timeline" required>
+                  <option value="">Select one</option>
+                  <option>This week</option>
+                  <option>Within 2 weeks</option>
+                  <option>This month</option>
+                  <option>Just researching</option>
+                </select>
+              </label>
+              <label>
+                <span>Budget range</span>
+                <select name="budget" required>
+                  <option value="">Select one</option>
+                  <option>Free review first</option>
+                  <option>$150-$500</option>
+                  <option>$500-$1,500</option>
+                  <option>$1,500+</option>
+                  <option>Not sure yet</option>
+                </select>
+              </label>
+            </div>
+          </fieldset>
+          <p class="trust-note">No pressure. This free review helps identify the best automation opportunity for your business.</p>
           <button class="button primary full" type="submit">Prepare My Review Request <span aria-hidden="true">-&gt;</span></button>
           <p class="form-note" id="reviewMessage">Submitting prepares an email request so you can review it before sending.</p>
         </form>

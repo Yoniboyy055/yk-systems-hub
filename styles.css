@@ -30,6 +30,24 @@ body {
   overflow-x: hidden;
 }
 
+body,
+p,
+li,
+input,
+textarea,
+select {
+  letter-spacing: 0;
+  line-height: 1.55;
+  word-spacing: normal;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0;
+  line-height: 1.12;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -221,8 +239,8 @@ a {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 2 / 3;
-  object-fit: cover;
+  aspect-ratio: auto;
+  object-fit: contain;
 }
 
 .book-cover span,
@@ -648,6 +666,32 @@ textarea {
   box-shadow: var(--shadow);
 }
 
+.review-form fieldset {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0 0 24px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.review-form legend {
+  margin-bottom: 14px;
+  color: var(--deep);
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.trust-note {
+  margin: 0;
+  padding: 14px 16px;
+  border-left: 3px solid var(--teal);
+  background: var(--wash);
+  color: var(--deep);
+  font-size: 14px;
+}
+
 .split-fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -801,6 +845,19 @@ summary {
   .hero p {
     max-width: 330px;
     font-size: 16px;
+  }
+
+  body,
+  p,
+  li,
+  input,
+  textarea,
+  select {
+    line-height: 1.58;
+  }
+
+  .review-form {
+    gap: 20px;
   }
 
   .hero-actions,
