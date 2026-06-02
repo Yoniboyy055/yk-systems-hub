@@ -14,14 +14,14 @@ const latestReview = () => getReviews().at(-1);
 const reviewToEmail = (review) => {
   if (!review) return "";
   return [
-    "YK SYSTEMS System Review Request",
+    "YK SYSTEMS Automation / Agent Review Request",
     "",
     `Name: ${review.name}`,
     `Email: ${review.email}`,
     `Business: ${review.businessName}`,
     `Business type: ${review.businessType}`,
     `Website/social: ${review.webLink}`,
-    `Automation goal: ${review.automationGoal}`,
+    `System improvement goal: ${review.automationGoal}`,
     `Current tools: ${review.currentTools}`,
     `Problem area: ${review.problemArea}`,
     `Timeline: ${review.timeline}`,
@@ -37,7 +37,7 @@ const openEmailDraft = () => {
     reviewMessage.textContent = "Submit a review request first, then open the email draft.";
     return;
   }
-  const subject = encodeURIComponent(`System review request - ${review.businessName || review.name}`);
+  const subject = encodeURIComponent(`Automation / agent review request - ${review.businessName || review.name}`);
   const body = encodeURIComponent(reviewToEmail(review));
   window.location.href = `mailto:${reviewEmail}?subject=${subject}&body=${body}`;
 };
@@ -67,4 +67,3 @@ reviewForm?.addEventListener("submit", (event) => {
   reviewForm.reset();
   window.setTimeout(openEmailDraft, 400);
 });
-

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build:book": "node tools/build-print-assets.mjs",
-    "verify": "node --check script.js && node --check review.js && node --check tools/build-print-assets.mjs && npm run build:book",
+    "verify": "node --check script.js && node --check library.js && node --check review.js && node --check tools/build-print-assets.mjs && npm run build:book",
     "serve": "npx --yes serve ."
   }
 }
