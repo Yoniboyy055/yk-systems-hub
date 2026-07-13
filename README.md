@@ -7,7 +7,10 @@ This folder contains the first launchable version of the YK SYSTEMS free lead-ma
 - `index.html` - the public landing page for the free resource library.
 - `styles.css` - the page design system and responsive layout.
 - `script.js` - lead capture handling, source tracking, and local export helpers.
-- `assets/automation-starter-vault.md` - the full Free Package 001 content.
+- `assets/automation-starter-vault.pdf` - the customer-facing Free Package 001 download.
+- `assets/automation-starter-vault.md` - editable source for Free Package 001.
+- `assets/small-business-automation-checklist.pdf` - branded automation checklist.
+- `assets/workflow-audit-worksheet.pdf` - branded workflow planning worksheet.
 - `assets/automation-builder-blueprint-professional-edition-2026.pdf` - the 130-page customer-ready flagship book.
 - `assets/automation-builder-blueprint.md` - backup starter manuscript.
 - `assets/yksystems-lead-crm.csv` - starter Google Sheets CRM columns.
@@ -17,7 +20,7 @@ This folder contains the first launchable version of the YK SYSTEMS free lead-ma
 ## Launch Order
 
 1. Upload `assets/automation-builder-blueprint-professional-edition-2026.pdf` to the free Gumroad product.
-2. Review and polish the supporting markdown resources.
+2. Rebuild customer-facing supporting PDFs with `npm run build:supporting` after editing their Markdown sources.
 3. Use `npm run build:book` only if the backup starter manuscript changes.
 4. The Gumroad product is live at:
    - `https://yoniboy.gumroad.com/l/automation-builder-blueprint-2026`

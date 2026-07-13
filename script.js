@@ -74,7 +74,7 @@ leadForm?.addEventListener("submit", (event) => {
   formMessage.textContent = "Access unlocked. Your local CRM entry is saved and the vault download is starting.";
   leadForm.reset();
   window.setTimeout(() => {
-    window.location.href = "assets/automation-starter-vault.md";
+    window.location.href = "assets/automation-starter-vault.pdf";
   }, 700);
 });
 
@@ -83,4 +83,3 @@ exportButton?.addEventListener("click", () => {
   const csv = toCsv(leads);
   downloadFile("yksystems-leads-export.csv", csv, "text/csv;charset=utf-8");
 });
-
