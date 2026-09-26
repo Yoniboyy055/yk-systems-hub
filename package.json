@@ -8,7 +8,9 @@
   },
   "scripts": {
     "build:book": "node tools/build-print-assets.mjs",
-    "verify": "node --check script.js && node --check library.js && node --check review.js && node --check tools/build-print-assets.mjs && npm run build:book",
+    "build:supporting": "python3 tools/build-supporting-pdfs.py",
+    "verify:links": "node tools/verify-static-links.mjs",
+    "verify": "node --check script.js && node --check library.js && node --check review.js && node --check tools/build-print-assets.mjs && npm run build:book && npm run build:supporting && npm run verify:links",
     "serve": "npx --yes serve ."
   }
 }
