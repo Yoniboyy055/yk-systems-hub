@@ -1,4 +1,4 @@
-# GitHub Copilot — YK Systems Resource Hub
+# GitHub Copilot — YK+ Systems Resource Hub
 
 <!-- YK-HQ-GOVERNANCE:START -->
 ## YK Systems HQ governance — mandatory review lens
