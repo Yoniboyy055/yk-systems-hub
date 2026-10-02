@@ -14,7 +14,7 @@ const latestReview = () => getReviews().at(-1);
 const reviewToEmail = (review) => {
   if (!review) return "";
   return [
-    "YK SYSTEMS Automation / Agent Review Request",
+    "YK+ Systems Automation / Agent Review Request",
     "",
     `Name: ${review.name}`,
     `Email: ${review.email}`,
