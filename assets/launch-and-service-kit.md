@@ -1,4 +1,4 @@
-# YK SYSTEMS Launch and Service Kit
+# YK+ Systems Launch and Service Kit
 
 ## Reddit Launch Post
 
@@ -10,7 +10,7 @@ Title options:
 
 Post:
 
-I built a free YK SYSTEMS Automation Starter Vault for people who want to understand business automation without getting buried in tools.
+I built a free YK+ Systems Automation Starter Vault for people who want to understand business automation without getting buried in tools.
 
 It includes:
 
@@ -31,7 +31,7 @@ No pitch required. Use it, adapt it, and build one useful system first.
 
 ## LinkedIn Launch Post
 
-I just released the first version of the YK SYSTEMS Automation Starter Vault.
+I just released the first version of the YK+ Systems Automation Starter Vault.
 
 It is a free resource library for small businesses, creators, contractors, founders, and beginners who want to understand practical automation.
 
@@ -192,9 +192,9 @@ If it has helped your business, could you send me 2 or 3 sentences about what ch
 
 Simple format:
 
-Before YK SYSTEMS:
+Before YK+ Systems:
 
-After YK SYSTEMS:
+After YK+ Systems:
 
 Result:
 

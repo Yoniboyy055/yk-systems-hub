@@ -1,6 +1,6 @@
-# YK SYSTEMS Free Resource Library
+# YK+ Systems Resource Hub
 
-This folder contains the first launchable version of the YK SYSTEMS free lead-magnet funnel.
+This repository powers the official YK+ Systems Resource Hub at `https://hub.yksystems.ca`. The canonical company website is `https://yksystems.ca`.
 
 ## What Is Included
 

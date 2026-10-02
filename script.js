@@ -60,7 +60,7 @@ leadForm?.addEventListener("submit", (event) => {
     name: data.get("name"),
     email: data.get("email"),
     source: params.get("utm_source") || document.referrer || "Direct/local",
-    resource: "The YK SYSTEMS Automation Starter Vault",
+    resource: "The YK+ Systems Automation Starter Vault",
     businessType: data.get("businessType"),
     automationGoal: data.get("automationGoal"),
     status: "New",

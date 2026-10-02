@@ -2,7 +2,7 @@
   "name": "yksystems-free-resource-library",
   "version": "1.0.0",
   "private": true,
-  "description": "Static launch kit for the YK SYSTEMS Free Resource Library.",
+  "description": "Static site for the official YK+ Systems Resource Hub.",
   "engines": {
     "node": ">=20"
   },
