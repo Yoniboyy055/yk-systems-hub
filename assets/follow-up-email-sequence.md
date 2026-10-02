@@ -1,8 +1,8 @@
-# YK SYSTEMS Follow-Up Email Sequence
+# YK+ Systems Follow-Up Email Sequence
 
 ## Email 1: Delivery
 
-Subject: Your YK SYSTEMS Automation Starter Vault
+Subject: Your YK+ Systems Automation Starter Vault
 
 Hey {{first_name}},
 
@@ -16,7 +16,7 @@ Best first question:
 
 What do you want to automate first?
 
-YK SYSTEMS
+YK+ Systems
 
 ## Email 2: Quick Win
 
@@ -34,7 +34,7 @@ These are simple, useful, and connected to revenue.
 
 If you reply with your business type, I can suggest the best first workflow.
 
-YK SYSTEMS
+YK+ Systems
 
 ## Email 3: Pain Point
 
@@ -55,7 +55,7 @@ The fix is usually simple:
 
 That is the foundation of useful automation.
 
-YK SYSTEMS
+YK+ Systems
 
 ## Email 4: Example Workflow
 
@@ -75,7 +75,7 @@ The lead fills a short quote form. Their details go to a CRM. They get an automa
 
 That one workflow can save hours and recover leads that would have been missed.
 
-YK SYSTEMS
+YK+ Systems
 
 ## Email 5: Offer
 
@@ -83,7 +83,7 @@ Subject: Want help building your first system?
 
 Hey {{first_name}},
 
-If you want help turning the template into a working system, YK SYSTEMS can help.
+If you want help turning the template into a working system, YK+ Systems can help.
 
 The first step is a simple system review. We look at your current process, find the highest-impact automation, and map what should be built first.
 
@@ -91,5 +91,5 @@ Reply with one sentence:
 
 What do you want to automate first?
 
-YK SYSTEMS
+YK+ Systems
 
