@@ -19,7 +19,7 @@ Use this when you want to work on this project from Codex cloud, including from 
 
 ## Recommended Codex Cloud Environment Settings
 
-- Environment name: `YK Systems Resource Library`
+- Environment name: `YK+ Systems Resource Hub`
 - Repository: the GitHub repo for this folder
 - Branch: `main`
 - Runtime image: default `universal`
@@ -57,7 +57,7 @@ npm run verify
 ## First Phone Prompt
 
 ```text
-Inspect this repository, read AGENTS.md, run npm run verify, and tell me if the YK SYSTEMS resource library is ready for a small content or launch change.
+Inspect this repository, read AGENTS.md, run npm run verify, and tell me if the YK+ Systems Resource Hub is ready for a small content or launch change.
 ```
 
 ## Notes

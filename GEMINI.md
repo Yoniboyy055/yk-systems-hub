@@ -1,4 +1,4 @@
-# Gemini — YK Systems Resource Hub
+# Gemini — YK+ Systems Resource Hub
 
 <!-- YK-HQ-GOVERNANCE:START -->
 ## YK Systems HQ governance — mandatory

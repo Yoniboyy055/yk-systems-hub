@@ -1,4 +1,4 @@
-# Claude — YK Systems Resource Hub
+# Claude — YK+ Systems Resource Hub
 
 <!-- YK-HQ-GOVERNANCE:START -->
 ## YK Systems HQ governance — mandatory

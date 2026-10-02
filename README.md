@@ -27,9 +27,9 @@ This repository powers the official YK+ Systems Resource Hub at `https://hub.yks
 6. The public system-review page is live at:
    - `https://hub.yksystems.ca/review`
    - Vercel fallback: `https://yk-systems-hub.vercel.app/review`
-7. DNS requirement for the custom domain:
-   - Add `A hub.yksystems.ca 76.76.21.21` at Porkbun.
-   - Current nameservers detected by Vercel: `curitiba.ns.porkbun.com`, `fortaleza.ns.porkbun.com`, `maceio.ns.porkbun.com`, `salvador.ns.porkbun.com`.
+7. Custom-domain status:
+   - `hub.yksystems.ca` is live and resolves through the existing Vercel project.
+   - Keep the DNS record and Vercel domain assignment intact during future deployment changes.
 8. Post the tracked landing-page link on Reddit, LinkedIn, and groups.
 
 ## Deployment Note
@@ -43,4 +43,4 @@ npm run verify
 vercel deploy --prod
 ```
 
-Custom-domain DNS must be completed at Porkbun before `hub.yksystems.ca` resolves publicly.
+`hub.yksystems.ca` is the live public Resource Hub domain. The Vercel project was historically deployed from the CLI; connect the Git repository to Vercel so future merges can deploy automatically.
