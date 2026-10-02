@@ -2,11 +2,11 @@
 
 ## A Beginner-Friendly Guide to AI Workflows, Business Systems, and No-Code Automation
 
-By YK SYSTEMS
+By YK+ Systems
 
 ## Copyright and Use
 
-This free starter edition is published by YK SYSTEMS. You may use it for your own business, study it, adapt the workflows, and share the download page. Do not resell this edition as your own product.
+This free starter edition is published by YK+ Systems. You may use it for your own business, study it, adapt the workflows, and share the download page. Do not resell this edition as your own product.
 
 ## Why This Exists
 
@@ -14,7 +14,7 @@ Most small businesses do not fail because they lack effort. They lose time becau
 
 Automation is not about replacing people. It is about turning repeated work into a clear system so people can focus on better decisions, better service, and better growth.
 
-YK SYSTEMS exists to help builders, creators, small businesses, and founders move from scattered tools to practical business infrastructure.
+YK+ Systems exists to help builders, creators, small businesses, and founders move from scattered tools to practical business infrastructure.
 
 ## What Automation Really Means
 
@@ -41,7 +41,7 @@ The tools can be simple:
 
 The real skill is not the tool. The real skill is knowing what should happen next.
 
-## The YK SYSTEMS Automation Formula
+## The YK+ Systems Automation Formula
 
 Use this simple map:
 
@@ -206,7 +206,7 @@ Day 7: Use it with one real lead or task.
 
 ## Soft Offer
 
-If you want help turning this into a working business system, YK SYSTEMS can help map, design, and build the workflow properly.
+If you want help turning this into a working business system, YK+ Systems can help map, design, and build the workflow properly.
 
 Start with one question:
 
