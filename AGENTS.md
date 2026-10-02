@@ -3,11 +3,11 @@
 Before material work, read `YK_SYSTEMS_HQ.md`. Current owner decisions and canonical HQ policy outrank local agent/session instructions. Existing repository-specific rules remain active and may be stricter; they may not weaken HQ requirements. If current HQ state is required but inaccessible, stop/escalate rather than guess.
 <!-- YK-HQ-GOVERNANCE:END -->
 
-# YK SYSTEMS Resource Library Agent Guide
+# YK+ Systems Resource Hub Agent Guide
 
 ## Project Shape
 
-- This is a static launch page for the YK SYSTEMS Free Resource Library.
+- This is the static public Resource Hub for YK+ Systems.
 - Core files are `index.html`, `review.html`, `styles.css`, `script.js`, `review.js`, and resource files in `assets/`.
 - `vercel.json` contains static deployment headers and clean URL behavior.
 - `tools/build-print-assets.mjs` rebuilds `assets/automation-builder-blueprint-print.html` from `assets/automation-builder-blueprint.md`.
