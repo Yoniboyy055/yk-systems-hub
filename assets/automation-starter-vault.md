@@ -1,6 +1,6 @@
-# The YK SYSTEMS Automation Starter Vault
+# The YK+ Systems Automation Starter Vault
 
-Free Package 001 by YK SYSTEMS
+Free Package 001 by YK+ Systems
 
 ## Included
 
@@ -9,7 +9,7 @@ Free Package 001 by YK SYSTEMS
 - 10 workflow blueprints
 - Beginner checklist: What Should I Automate First?
 - Business-type guide
-- Upgrade path to YK SYSTEMS services
+- Upgrade path to YK+ Systems services
 
 ## Beginner Checklist: What Should I Automate First?
 
@@ -67,7 +67,7 @@ How to use it: Answer the questions honestly and pick the highest-impact low-dif
 
 How to sell/build it as a service: Offer a workflow audit that turns the output into a real system map.
 
-Upgrade path: YK SYSTEMS can build the chosen workflow.
+Upgrade path: YK+ Systems can build the chosen workflow.
 
 ### 2. Client Intake Form Builder
 
@@ -87,7 +87,7 @@ How to use it: Replace `{{business_type}}`, build the form, and connect it to a 
 
 How to sell/build it as a service: Sell a done-for-you intake form and lead tracker.
 
-Upgrade path: YK SYSTEMS can connect the form to CRM and follow-up.
+Upgrade path: YK+ Systems can connect the form to CRM and follow-up.
 
 ### 3. Lead Qualification Scorer
 
@@ -107,7 +107,7 @@ How to use it: Add score and status columns to the CRM.
 
 How to sell/build it as a service: Offer lead pipeline cleanup and scoring setup.
 
-Upgrade path: YK SYSTEMS can automate scoring later.
+Upgrade path: YK+ Systems can automate scoring later.
 
 ### 4. Sales Follow-Up Writer
 
@@ -127,7 +127,7 @@ How to use it: Save the messages as templates and personalize before sending.
 
 How to sell/build it as a service: Include follow-up templates in a lead system setup.
 
-Upgrade path: YK SYSTEMS can trigger reminders and draft replies automatically.
+Upgrade path: YK+ Systems can trigger reminders and draft replies automatically.
 
 ### 5. Quote Request Workflow Planner
 
@@ -147,7 +147,7 @@ How to use it: Turn the output into a form and status tracker.
 
 How to sell/build it as a service: Package it as a quote request automation setup.
 
-Upgrade path: YK SYSTEMS can connect reminders and reporting.
+Upgrade path: YK+ Systems can connect reminders and reporting.
 
 ### 6. Review Request Generator
 
@@ -167,7 +167,7 @@ How to use it: Send after job completion or connect to a job tracker.
 
 How to sell/build it as a service: Offer review growth workflow setup.
 
-Upgrade path: YK SYSTEMS can automate job-complete triggers and reminders.
+Upgrade path: YK+ Systems can automate job-complete triggers and reminders.
 
 ### 7. Content Calendar Generator
 
@@ -187,7 +187,7 @@ How to use it: Copy the table into a content tracker.
 
 How to sell/build it as a service: Sell content system setup or monthly content planning.
 
-Upgrade path: YK SYSTEMS can build a content operations board.
+Upgrade path: YK+ Systems can build a content operations board.
 
 ### 8. Reel Script Generator
 
@@ -207,7 +207,7 @@ How to use it: Record the scripts and track performance.
 
 How to sell/build it as a service: Bundle with content calendar setup.
 
-Upgrade path: YK SYSTEMS can automate script generation from long-form content.
+Upgrade path: YK+ Systems can automate script generation from long-form content.
 
 ### 9. Newsletter Repurposing Prompt
 
@@ -227,7 +227,7 @@ How to use it: Paste one idea and schedule the outputs.
 
 How to sell/build it as a service: Offer content repurposing systems.
 
-Upgrade path: YK SYSTEMS can connect content databases and publishing workflows.
+Upgrade path: YK+ Systems can connect content databases and publishing workflows.
 
 ### 10. Customer Support Reply Library
 
@@ -247,7 +247,7 @@ How to use it: Save as canned replies and customize before sending.
 
 How to sell/build it as a service: Sell customer response template setup.
 
-Upgrade path: YK SYSTEMS can build support triage and draft automation.
+Upgrade path: YK+ Systems can build support triage and draft automation.
 
 ### 11. Admin Task SOP Creator
 
@@ -267,7 +267,7 @@ How to use it: Create SOPs before delegating.
 
 How to sell/build it as a service: Offer SOP library creation.
 
-Upgrade path: YK SYSTEMS can build a searchable operations hub.
+Upgrade path: YK+ Systems can build a searchable operations hub.
 
 ### 12. Google Sheets CRM Designer
 
@@ -287,7 +287,7 @@ How to use it: Create the columns and enter every lead.
 
 How to sell/build it as a service: Sell CRM starter setup.
 
-Upgrade path: YK SYSTEMS can connect forms and automation.
+Upgrade path: YK+ Systems can connect forms and automation.
 
 ### 13. Missed Lead Recovery Message
 
@@ -307,7 +307,7 @@ How to use it: Send to old inquiries and track replies.
 
 How to sell/build it as a service: Offer lead recovery campaign setup.
 
-Upgrade path: YK SYSTEMS can automate reminders so leads stop going cold.
+Upgrade path: YK+ Systems can automate reminders so leads stop going cold.
 
 ### 14. Digital Product Idea Validator
 
@@ -327,7 +327,7 @@ How to use it: Pick one idea and build a free-to-paid funnel.
 
 How to sell/build it as a service: Offer digital product strategy packages.
 
-Upgrade path: YK SYSTEMS can build landing pages and automation.
+Upgrade path: YK+ Systems can build landing pages and automation.
 
 ### 15. Gumroad Product Listing Writer
 
@@ -347,7 +347,7 @@ How to use it: Paste into Gumroad and adjust details.
 
 How to sell/build it as a service: Sell product launch setup.
 
-Upgrade path: YK SYSTEMS can build the product funnel.
+Upgrade path: YK+ Systems can build the product funnel.
 
 ### 16. Contractor Daily Report Builder
 
@@ -367,7 +367,7 @@ How to use it: Use as a daily form or checklist.
 
 How to sell/build it as a service: Offer field operations reporting setup.
 
-Upgrade path: YK SYSTEMS can connect it to GrandProof-style proof workflows.
+Upgrade path: YK+ Systems can connect it to GrandProof-style proof workflows.
 
 ### 17. Incident Report Workflow
 
@@ -387,7 +387,7 @@ How to use it: Make it available to supervisors.
 
 How to sell/build it as a service: Offer safety/admin documentation workflow setup.
 
-Upgrade path: YK SYSTEMS can build secure reporting systems.
+Upgrade path: YK+ Systems can build secure reporting systems.
 
 ### 18. Client Onboarding Checklist
 
@@ -407,7 +407,7 @@ How to use it: Send after payment or proposal approval.
 
 How to sell/build it as a service: Build onboarding systems.
 
-Upgrade path: YK SYSTEMS can automate onboarding tasks.
+Upgrade path: YK+ Systems can automate onboarding tasks.
 
 ### 19. Proposal Generator
 
@@ -427,7 +427,7 @@ How to use it: Customize before sending.
 
 How to sell/build it as a service: Offer proposal templates and CRM setup.
 
-Upgrade path: YK SYSTEMS can connect proposal intake to delivery tasks.
+Upgrade path: YK+ Systems can connect proposal intake to delivery tasks.
 
 ### 20. Monthly Client Report Builder
 
@@ -447,7 +447,7 @@ How to use it: Fill monthly and send consistently.
 
 How to sell/build it as a service: Build reporting systems.
 
-Upgrade path: YK SYSTEMS can automate report drafts.
+Upgrade path: YK+ Systems can automate report drafts.
 
 ### 21. AI Assistant Role Designer
 
@@ -467,7 +467,7 @@ How to use it: Use the role spec to build a custom GPT or internal prompt.
 
 How to sell/build it as a service: Offer AI assistant setup.
 
-Upgrade path: YK SYSTEMS can build and document the assistant.
+Upgrade path: YK+ Systems can build and document the assistant.
 
 ### 22. SOP to Checklist Converter
 
@@ -487,7 +487,7 @@ How to use it: Use checklists for training and quality control.
 
 How to sell/build it as a service: Offer operations documentation cleanup.
 
-Upgrade path: YK SYSTEMS can build a workflow library.
+Upgrade path: YK+ Systems can build a workflow library.
 
 ### 23. Lead Magnet Planner
 
@@ -507,7 +507,7 @@ How to use it: Pick the simplest useful free resource.
 
 How to sell/build it as a service: Build lead magnet funnels.
 
-Upgrade path: YK SYSTEMS can build the full landing page and follow-up.
+Upgrade path: YK+ Systems can build the full landing page and follow-up.
 
 ### 24. Automation ROI Estimator
 
@@ -527,7 +527,7 @@ How to use it: Use ROI to prioritize paid setup.
 
 How to sell/build it as a service: Include ROI in proposals.
 
-Upgrade path: YK SYSTEMS can scope the automation from the estimate.
+Upgrade path: YK+ Systems can scope the automation from the estimate.
 
 ### 25. First Automation Build Plan
 
@@ -547,7 +547,7 @@ How to use it: Follow the plan and build a first version.
 
 How to sell/build it as a service: Turn this into a paid implementation plan.
 
-Upgrade path: YK SYSTEMS can build it for the client.
+Upgrade path: YK+ Systems can build it for the client.
 
 ## 10 Workflow Blueprints
 
@@ -576,7 +576,7 @@ How to use it: Make the form the main lead capture link.
 
 How to sell it as a service: Offer a $150-$500 intake and CRM setup.
 
-Upgrade path: YK SYSTEMS can add automated replies and reminders.
+Upgrade path: YK+ Systems can add automated replies and reminders.
 
 ### 2. Lead Follow-Up Automation
 
@@ -602,7 +602,7 @@ How to use it: Send useful reminders without sounding desperate.
 
 How to sell it as a service: Package as lead recovery setup.
 
-Upgrade path: YK SYSTEMS can automate reminders and draft messages.
+Upgrade path: YK+ Systems can automate reminders and draft messages.
 
 ### 3. Quote Request Workflow
 
@@ -629,7 +629,7 @@ How to use it: Send the quote form before scheduling.
 
 How to sell it as a service: Offer quote workflow setup.
 
-Upgrade path: YK SYSTEMS can add file uploads and quote reminders.
+Upgrade path: YK+ Systems can add file uploads and quote reminders.
 
 ### 4. Review Request Workflow
 
@@ -655,7 +655,7 @@ How to use it: Trigger after every completed job.
 
 How to sell it as a service: Offer reputation workflow setup.
 
-Upgrade path: YK SYSTEMS can automate review tracking.
+Upgrade path: YK+ Systems can automate review tracking.
 
 ### 5. Content Repurposing Workflow
 
@@ -681,7 +681,7 @@ How to use it: Batch content weekly.
 
 How to sell it as a service: Offer content operations setup.
 
-Upgrade path: YK SYSTEMS can connect intake, drafts, and publishing boards.
+Upgrade path: YK+ Systems can connect intake, drafts, and publishing boards.
 
 ### 6. Email Newsletter Workflow
 
@@ -708,7 +708,7 @@ How to use it: Use one topic per week.
 
 How to sell it as a service: Offer newsletter system setup.
 
-Upgrade path: YK SYSTEMS can build a content-to-email workflow.
+Upgrade path: YK+ Systems can build a content-to-email workflow.
 
 ### 7. Google Form to Google Sheets CRM
 
@@ -734,7 +734,7 @@ How to use it: Make this the minimum CRM.
 
 How to sell it as a service: Offer a CRM starter setup.
 
-Upgrade path: YK SYSTEMS can add automation and reporting.
+Upgrade path: YK+ Systems can add automation and reporting.
 
 ### 8. Missed Lead Follow-Up System
 
@@ -760,7 +760,7 @@ How to use it: Run once per month.
 
 How to sell it as a service: Offer lost lead recovery.
 
-Upgrade path: YK SYSTEMS can create recurring lead reactivation.
+Upgrade path: YK+ Systems can create recurring lead reactivation.
 
 ### 9. Invoice Reminder Workflow
 
@@ -786,7 +786,7 @@ How to use it: Keep payment follow-up consistent.
 
 How to sell it as a service: Offer admin automation setup.
 
-Upgrade path: YK SYSTEMS can connect payment tools and reminders.
+Upgrade path: YK+ Systems can connect payment tools and reminders.
 
 ### 10. Simple AI Customer Response Workflow
 
@@ -812,7 +812,7 @@ How to use it: Draft faster while keeping human review.
 
 How to sell it as a service: Offer response library and AI assistant setup.
 
-Upgrade path: YK SYSTEMS can create a custom support assistant.
+Upgrade path: YK+ Systems can create a custom support assistant.
 
 ## Expansion Roadmap Toward 200 Templates
 
