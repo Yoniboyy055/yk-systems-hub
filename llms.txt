@@ -1,0 +1,26 @@
+# YK+ Systems Resource Hub
+
+> Resource site: https://hub.yksystems.ca/
+> Publisher: YK+ Systems
+> Canonical company website: https://yksystems.ca/
+
+This subdomain is a resource library published by YK+ Systems. It is not the primary corporate website.
+
+For information about the company, services, projects, or how to hire YK+ Systems, use:
+https://yksystems.ca/
+
+## Resource topics
+
+- Business automation
+- AI-assisted workflows
+- AI agent system concepts
+- CRM and follow-up workflows
+- Approval and governance patterns
+- Practical automation guides, templates, and checklists
+
+## Company service pages
+
+- Custom software development: https://yksystems.ca/custom-software-development-toronto
+- AI and workflow automation: https://yksystems.ca/ai-automation-toronto
+- Construction and field operations software: https://yksystems.ca/construction-software-ontario
+- Business websites and digital platforms: https://yksystems.ca/digital-platforms-websites-toronto
