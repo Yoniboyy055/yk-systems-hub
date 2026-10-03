@@ -1,6 +1,6 @@
 # YK+ Systems Resource Hub
 
-This repository powers the official YK+ Systems Resource Hub at `https://hub.yksystems.ca`. The canonical company website is `https://yksystems.ca`.
+This repository powers the official [YK+ Systems Resource Hub](https://hub.yksystems.ca/). The canonical company website is [YK+ Systems](https://yksystems.ca/).
 
 ## What Is Included
 
