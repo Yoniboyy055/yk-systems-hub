@@ -1173,3 +1173,8 @@ summary {
     padding: 32px 20px;
   }
 }
+
+.consent{display:flex;gap:.6rem;align-items:flex-start;font-size:.9rem;margin:.75rem 0}
+.consent input{width:auto;margin-top:.25rem;flex:none}
+#reviewMessage[data-state="error"]{color:#b42318;font-weight:600}
+#reviewMessage[data-state="ok"]{color:#067647;font-weight:600}
